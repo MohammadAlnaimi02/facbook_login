@@ -1,0 +1,168 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Facebook</title>
+    <link href="bootstrap-5.3.3-dist/css/bootstrap.min.css" rel="stylesheet" />
+    <style>
+        body {
+            background-color: #f0f2f5
+        }
+    </style>
+</head>
+<body>
+    <header class="mb-5"></header>
+    <div class="container ">
+        <div class="row d-flex justify-content-center align-items-center">
+            <div class="col-6">
+                <h1 class="fs-1 text-primary fw-bold">facebook</h1>
+                <h3>Connect with friends and the world around you on Facebook.</h3>
+            </div>
+            <div class="col-6">
+                <div class="card w-75 mt-5 ">
+                    <div class="card-body">
+                        <div class="row">
+                            <div class="col-12 my-3">
+                                <input type="email" placeholder="Email or phone number" class="form-control" />
+                            </div>
+
+                        </div>
+                        <div class="row">
+                            <div class="col-12">
+
+                                <input type="password" placeholder="Password"  class="form-control"/>
+                            </div>
+
+                        </div>
+                        <div class="text-center my-3">
+                            <button class="btn btn-primary form-control fs-5 my-2 ">Log In</button>
+                            <div>
+                                <a href="#" class="text-decoration-none">Forgot Password ?</a>
+                             
+                            </div>
+
+                        </div>
+                        <div class="card-footer text-center">
+                            <button class="btn btn-success fs-5 p-2 pe-3" data-bs-toggle="modal" data-bs-target="#exampleModal" style="background-color: #36a420 ">Create New Account</button>
+
+                        </div>
+
+                    </div>
+                </div>
+                <p class="my-3"><a class="fw-bold text-dark text-decoration-none">Create a Page</a> for a celebrity, brand or business.</p>
+            </div>
+        </div>
+    </div>
+    <!-- Modal -->
+    <div class="modal fade" id="exampleModal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+        <div class="modal-dialog">
+            <div class="modal-content">
+                <div class="modal-header text-center">
+                    <h1 class=" fs-5 text-dark" id="exampleModalLabel">Create a New account</h1>
+                    <br />
+                    <p>its quick and easy</p>
+                    <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                </div>
+                <div class="modal-body">
+                    <form action="" method="post">
+                        <div class="row">
+                            <div class="col-6">
+                                <input type="text" placeholder="First name" class="form-control" />
+                            </div>
+                            <div class="col-6">
+                                <input type="text" placeholder="Second name" class="form-control" />
+                            </div>
+                            <label>Birthday</label>
+                            <div class="row">
+                                <div class="col-4">
+                                    <select class="form-select" aria-label="Default select example">
+                                        <option selected>Jan</option>
+                                        <option value="1">Feb</option>
+                                        <option value="2">Marsh</option>
+                                        <option value="3">April</option>
+                                        <option value="1">May</option>
+                                        <option value="2">June</option>
+                                        <option value="3">July</option>
+                                    </select>
+                                </div>
+                                <div class="col-4">
+                                    <select class="form-select" aria-label="Default select example">
+                                        <option selected>24</option>
+                                        <option value="1">25</option>
+                                        <option value="2">26</option>
+                                        <option value="3">27</option>
+                                        <option value="1">28</option>
+                                        <option value="2">29</option>
+                                        <option value="3">30</option>
+                                    </select>
+                                </div>
+                                <div class="col-4">
+                                    <select class="form-select" aria-label="Default select example">
+                                        <option selected>2025</option>
+                                        <option value="1">2024</option>
+                                        <option value="2">2023</option>
+                                        <option value="3">2022</option>
+                                        <option value="1">2021</option>
+                                        <option value="2">2020</option>
+                                        <option value="3">2019</option>
+                                    </select>
+                                </div>
+                            </div>
+                            <label>Gender</label>
+                            <div class="row">
+                                <div class="col-4">
+                                    <div class="form-check">
+                                        <input class="form-check-input" type="radio" name="flexRadioDefault" id="flexRadioDefault1">
+                                        <label class="form-check-label" for="flexRadioDefault1">
+                                            Male
+                                        </label>
+                                    </div>
+                                    
+                                </div>
+                                <div class="col-4">
+                                    <div class="form-check">
+                                        <input class="form-check-input" type="radio" name="flexRadioDefault" id="flexRadioDefault2" checked>
+                                        <label class="form-check-label" for="flexRadioDefault2">
+                                           Female
+                                        </label>
+                                    </div>
+                                </div>
+                                <div class="col-4">
+                                    <div class="form-check">
+                                        <input class="form-check-input" type="radio" name="flexRadioDefault" id="flexRadioDefault1">
+                                        <label class="form-check-label" for="flexRadioDefault1">
+                                            Custom
+                                        </label>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="row my-2">
+                                <div class="col-12">
+                                    <input type="text" placeholder="Mobile number or email"  class="form-control"/>
+                                </div>
+                                <div class="row">
+                                    <div class="col-12 mt-3">
+                                        <input type="password" placeholder="New Password" class="form-control" />
+                                    </div>
+                                </div>
+                                
+                            </div>
+                        </div>
+                    </form>
+                    <div class="fs-6 my-3">
+                        <p>By clicking Sign Up, you agree to our Terms, Privacy Policy and Cookies Policy. You may receive SMS Notifications from us and can opt out any time.</p>
+                        <p>People who use our service may have uploaded your contact information to Facebook. Learn more.</p>
+                    </div>
+                    <div class="text-center">
+                        <button class="btn btn-success form-control my-2"  style="background-color: #36a420 ">Sign Up</button>
+                        <br />
+                        <a href="#" class="text-primary text-decoration-none">Already have an account ?</a>
+                    </div>
+                </div>
+               
+            </div>
+        </div>
+    </div>
+    <footer class="mt-5"></footer>
+    <script src="bootstrap-5.3.3-dist/js/bootstrap.min.js"></script>
+</body>
+</html>
